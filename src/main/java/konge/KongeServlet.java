@@ -44,10 +44,10 @@ public class KongeServlet extends HttpServlet {
 		    out.println("</head>");
 		    out.println("<body>");
 			
-		    if(aar >= 1448 && aar <= 1482) {
+		    if(aar >= 1448 && aar <= 1588) {
 		    	//Lag respons-siden.
 			    out.println("<p><img src=" + konge.getBilde()
-			    		+ "alt=Image height=350px width=300px</p>");
+			    		+ " alt=Image height=350px width=300px</p>");
 			    out.println("<h1>Konge i år " + aar + " var " + konge.toString() + "</h1>");		 
 		    }
 			
